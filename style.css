@@ -1,0 +1,103 @@
+/* Estilo do corpo da página */
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilo do cabeçalho da página */
+  nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Estilo do título */
+  h1 {
+    font-size: 36px;
+    margin: 0;
+    text-align: center;
+  }
+  
+  /* Estilo do subtítulo */
+  .red-color {
+    color: red;
+  }
+  
+  /* Estilo do texto */
+  p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  /* Estilo do link no menu */
+  nav ul li a {
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  /* Estilo do link ativo no menu */
+  nav ul li a:hover,
+  nav ul li a:focus {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  /* Estilo da imagem */
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  
+  /* Estilo do rodapé */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Estilo do sumário */
+  summary {
+    font-weight: bold;
+  }
+  
+  /* Estilo do conteúdo do sumário */
+  details > * {
+    margin: 10px;
+  }
+  nav {
+    position: relative;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
